@@ -4,8 +4,8 @@
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
@@ -14,42 +14,39 @@ local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 local TextButton_8 = Instance.new("TextButton")
-local TextButton_9 = Instance.new("TextButton")
-local TextButton_10 = Instance.new("TextButton")
-local TextButton_11 = Instance.new("TextButton")
-local TextButton_12 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, 0.721755445, 0)
-Frame.Size = UDim2.new(0, 216, 0, 194)
-
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(7.03170002e-08, 0, 0.00512820529, 0)
-TextLabel.Size = UDim2.new(0, 216, 0, 25)
-TextLabel.Font = Enum.Font.LuckiestGuy
-TextLabel.Text = "Vata909tt S Admin panel"
+TextLabel.Position = UDim2.new(0.314960629, 0, 0.309986591, 0)
+TextLabel.Size = UDim2.new(0, 325, 0, 40)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Vata909tt CMDS"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
+Frame.Parent = TextLabel
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.00160334655, 0, 0.98009336, 0)
+Frame.Size = UDim2.new(0, 326, 0, 248)
+
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.047302071, 0, 0.136725008, 0)
-TextButton.Size = UDim2.new(0, 54, 0, 25)
+TextButton.Position = UDim2.new(0.10032551, 0, 0.0872674733, 0)
+TextButton.Size = UDim2.new(0, 82, 0, 38)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "Fly"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -58,11 +55,11 @@ TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 
 TextButton_2.Parent = Frame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0.402067691, 0, 0.136725008, 0)
-TextButton_2.Size = UDim2.new(0, 54, 0, 25)
+TextButton_2.Position = UDim2.new(0.417405099, 0, 0.0843060389, 0)
+TextButton_2.Size = UDim2.new(0, 75, 0, 38)
 TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.Text = "Noclip"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -71,138 +68,94 @@ TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
 TextButton_3.Parent = Frame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.742642581, 0, 0.136725008, 0)
-TextButton_3.Size = UDim2.new(0, 54, 0, 25)
+TextButton_3.Position = UDim2.new(0.70890075, 0, 0.0867166817, 0)
+TextButton_3.Size = UDim2.new(0, 82, 0, 38)
 TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Sonic"
+TextButton_3.Text = "God mode"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
 TextButton_4.Parent = Frame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderSizePixel = 0
-TextButton_4.Position = UDim2.new(0.0435685068, 0, 0.337755978, 0)
-TextButton_4.Size = UDim2.new(0, 54, 0, 25)
+TextButton_4.Position = UDim2.new(0.0992660969, 0, 0.328652173, 0)
+TextButton_4.Size = UDim2.new(0, 82, 0, 38)
 TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "UnSonic"
+TextButton_4.Text = "Sit"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.TextScaled = true
 TextButton_4.TextSize = 14.000
 TextButton_4.TextWrapped = true
 
 TextButton_5.Parent = Frame
-TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.BorderSizePixel = 0
-TextButton_5.Position = UDim2.new(0.400049984, 0, 0.337755978, 0)
-TextButton_5.Size = UDim2.new(0, 54, 0, 25)
+TextButton_5.Position = UDim2.new(0.414734155, 0, 0.32628262, 0)
+TextButton_5.Size = UDim2.new(0, 82, 0, 38)
 TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "Giant Jump"
+TextButton_5.Text = "Remove God Mode"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14.000
 TextButton_5.TextWrapped = true
 
 TextButton_6.Parent = Frame
-TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.BorderSizePixel = 0
-TextButton_6.Position = UDim2.new(0.742642581, 0, 0.337755978, 0)
-TextButton_6.Size = UDim2.new(0, 54, 0, 25)
+TextButton_6.Position = UDim2.new(0.706798971, 0, 0.325659215, 0)
+TextButton_6.Size = UDim2.new(0, 83, 0, 38)
 TextButton_6.Font = Enum.Font.SourceSans
-TextButton_6.Text = "Defaul Jump"
+TextButton_6.Text = "Giant Jump"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.TextScaled = true
 TextButton_6.TextSize = 14.000
 TextButton_6.TextWrapped = true
 
 TextButton_7.Parent = Frame
-TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.BorderSizePixel = 0
-TextButton_7.Position = UDim2.new(0.0435685068, 0, 0.51816833, 0)
-TextButton_7.Size = UDim2.new(0, 54, 0, 25)
+TextButton_7.Position = UDim2.new(0.248777524, 0, 0.543983102, 0)
+TextButton_7.Size = UDim2.new(0, 79, 0, 37)
 TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "Reset"
+TextButton_7.Text = "Sonic"
 TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.TextScaled = true
 TextButton_7.TextSize = 14.000
 TextButton_7.TextWrapped = true
 
 TextButton_8.Parent = Frame
-TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.BorderSizePixel = 0
-TextButton_8.Position = UDim2.new(0.372272223, 0, 0.51816833, 0)
-TextButton_8.Size = UDim2.new(0, 54, 0, 25)
+TextButton_8.Position = UDim2.new(0.571147799, 0, 0.543816864, 0)
+TextButton_8.Size = UDim2.new(0, 81, 0, 37)
 TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "Sit"
+TextButton_8.Text = "UnSonic"
 TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.TextScaled = true
 TextButton_8.TextSize = 14.000
 TextButton_8.TextWrapped = true
 
-TextButton_9.Parent = Frame
-TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.BorderSizePixel = 0
-TextButton_9.Position = UDim2.new(0.742642581, 0, 0.51816833, 0)
-TextButton_9.Size = UDim2.new(0, 54, 0, 25)
-TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.Text = "High Health"
-TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.TextScaled = true
-TextButton_9.TextSize = 14.000
-TextButton_9.TextWrapped = true
-
-TextButton_10.Parent = Frame
-TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.BorderSizePixel = 0
-TextButton_10.Position = UDim2.new(0.0435685068, 0, 0.729508519, 0)
-TextButton_10.Size = UDim2.new(0, 54, 0, 25)
-TextButton_10.Font = Enum.Font.SourceSans
-TextButton_10.Text = "Normal Health"
-TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.TextScaled = true
-TextButton_10.TextSize = 14.000
-TextButton_10.TextWrapped = true
-
-TextButton_11.Parent = Frame
-TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.BorderSizePixel = 0
-TextButton_11.Position = UDim2.new(0.400049984, 0, 0.729508519, 0)
-TextButton_11.Size = UDim2.new(0, 54, 0, 25)
-TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "Invisible"
-TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.TextScaled = true
-TextButton_11.TextSize = 14.000
-TextButton_11.TextWrapped = true
-
-TextButton_12.Parent = Frame
-TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.BorderSizePixel = 0
-TextButton_12.Position = UDim2.new(0.742642581, 0, 0.729508519, 0)
-TextButton_12.Size = UDim2.new(0, 54, 0, 25)
-TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.Text = "Visible"
-TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.TextScaled = true
-TextButton_12.TextSize = 14.000
-TextButton_12.TextWrapped = true
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-2.80836616e-07, 0, 0.786290348, 0)
+ImageLabel.Size = UDim2.new(0, 325, 0, 52)
+ImageLabel.Image = "rbxassetid://83546719372541"
 
 -- Scripts:
 
-local function EUNMTNW_fake_script() -- TextButton.LocalScript 
+local function EQPULEV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- LocalScript inside: StarterGui > ScreenGui > TextButton
@@ -312,8 +265,8 @@ local function EUNMTNW_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(EUNMTNW_fake_script)()
-local function VHAHIQ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(EQPULEV_fake_script)()
+local function KUCZT_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Players = game:GetService("Players")
@@ -341,84 +294,26 @@ local function VHAHIQ_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(VHAHIQ_fake_script)()
-local function XDGFM_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(KUCZT_fake_script)()
+local function NADKJ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local player = game.Players.LocalPlayer
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-		if hum then
-			hum.WalkSpeed = 100
+		local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid.MaxHealth = 765223885765223885765223885765223885765223885765223885765223885765223885
+			
+			humanoid.Health = 765223885765223885765223885765223885765223885765223885765223885765223885
 		end
 	end)
 	
 end
-coroutine.wrap(XDGFM_fake_script)()
-local function NBTEQJ_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(NADKJ_fake_script)()
+local function CGCDBB_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
-
-	local player = game.Players.LocalPlayer
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-		if hum then
-			hum.WalkSpeed = 16
-		end
-	end)
-	
-end
-coroutine.wrap(NBTEQJ_fake_script)()
-local function ZQBGTZQ_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
-
-	local player = game.Players.LocalPlayer
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-		if hum then
-			hum.JumpPower = 200
-		end
-	end)
-	
-end
-coroutine.wrap(ZQBGTZQ_fake_script)()
-local function UKKZDZ_fake_script() -- TextButton_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_6)
-
-	local player = game.Players.LocalPlayer
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-		if hum then
-			hum.JumpPower = 50
-		end
-	end)
-	
-end
-coroutine.wrap(UKKZDZ_fake_script)()
-local function EAAHOD_fake_script() -- TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_7)
-
-	local player = game.Players.LocalPlayer
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-		if hum then
-			hum.JumpPower = 50
-		end
-	end)
-	
-end
-coroutine.wrap(EAAHOD_fake_script)()
-local function AQGNUDA_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
 
 	local player = game.Players.LocalPlayer
 	local button = script.Parent
@@ -431,25 +326,9 @@ local function AQGNUDA_fake_script() -- TextButton_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(AQGNUDA_fake_script)()
-local function JDNELH_fake_script() -- TextButton_9.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_9)
-
-	local player = game.Players.LocalPlayer
-	local button = script.Parent
-	
-	button.MouseButton1Click:Connect(function()
-		local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-		if humanoid then
-			humanoid.MaxHealth = math.huge
-			humanoid.Health = math.huge
-		end
-	end)
-	
-end
-coroutine.wrap(JDNELH_fake_script)()
-local function JYMHQXF_fake_script() -- TextButton_10.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_10)
+coroutine.wrap(CGCDBB_fake_script)()
+local function AVSF_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
 
 	local player = game.Players.LocalPlayer
 	local button = script.Parent
@@ -463,52 +342,93 @@ local function JYMHQXF_fake_script() -- TextButton_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(JYMHQXF_fake_script)()
-local function AXFTHAD_fake_script() -- TextButton_11.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_11)
+coroutine.wrap(AVSF_fake_script)()
+local function MONHQC_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
 
 	local player = game.Players.LocalPlayer
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		local char = player.Character
-		if char then
-			for _, part in ipairs(char:GetDescendants()) do
-				if part:IsA("BasePart") then
-					part.Transparency = 1
-					if part:FindFirstChild("face") then
-						part.face.Transparency = 1
-					end
-				elseif part:IsA("Decal") then
-					part.Transparency = 1
-				end
-			end
+		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+		if hum then
+			hum.JumpPower = 200
 		end
 	end)
 	
 end
-coroutine.wrap(AXFTHAD_fake_script)()
-local function ADDHPBI_fake_script() -- TextButton_12.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_12)
+coroutine.wrap(MONHQC_fake_script)()
+local function GNLVB_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
 
 	local player = game.Players.LocalPlayer
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		local char = player.Character
-		if char then
-			for _, part in ipairs(char:GetDescendants()) do
-				if part:IsA("BasePart") then
-					part.Transparency = 0
-					if part:FindFirstChild("face") then
-						part.face.Transparency = 0
-					end
-				elseif part:IsA("Decal") then
-					part.Transparency = 0
+		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+		if hum then
+			hum.WalkSpeed = 100
+		end
+	end)
+	
+end
+coroutine.wrap(GNLVB_fake_script)()
+local function LSGIJI_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local player = game.Players.LocalPlayer
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local hum = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+		if hum then
+			hum.WalkSpeed = 16
+		end
+	end)
+	
+end
+coroutine.wrap(LSGIJI_fake_script)()
+local function CZQJ_fake_script() -- TextLabel.DragScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
 				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
 			end
 		end
 	end)
 	
 end
-coroutine.wrap(ADDHPBI_fake_script)()
+coroutine.wrap(CZQJ_fake_script)()
